@@ -20,7 +20,7 @@ public class Main {
             if (num1 % 2 == 0) {
                 System.out.println("num1 is a even = " + num1);
             } else System.out.println("num1 is a odd = " + num1);
-            
+
             num2 = scanner.nextInt();
             if (num2 % 2 == 0) {
                 System.out.println("num2 is a even = " + num2);
