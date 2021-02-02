@@ -31,7 +31,7 @@ public class Main {
             } else if (num1 < num2) {
                 System.out.println("num2 is a max = " + num2);
             } else System.out.println("num1 and num2 is equal");
-            
+
             num3 = scanner.nextInt();
             num = 1.0f * (num1 + num2 + num3) / 3;
             System.out.println("The arithmetic average is a " + num);
