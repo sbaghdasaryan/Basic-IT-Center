@@ -14,10 +14,14 @@ public class Main3 {
         }
 
 //        Task 1
-        for (int i=1; i<17; i++) {
-            Student student = new Student("Student", "cybernetic");
-            student.setName(student.getName() + "_" + i);
-            System.out.println(student.getName() + " id is a " + Student.id);
-        }
+        Student student1 = new Student("Student1", "cybernetic");
+        Student student2 = new Student("Student2", "cybernetic");
+        Student student3 = new Student("Student3", "cybernetic");
+        Student student4 = new Student("Student4", "cybernetic");
+
+        System.out.println("Student_1 id is a " + student1.getId());
+        System.out.println("Student_3 id is a " + student3.getId());
+        System.out.println("Student_4 id is a " + student4.getId());
+        System.out.println("Student_2 id is a " + student2.getId());
     }
 }
